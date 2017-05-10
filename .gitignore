@@ -4,5 +4,6 @@
 *.recommenders/
 *.classpath
 *.project
+*.class
 *tomcat
 *target/
