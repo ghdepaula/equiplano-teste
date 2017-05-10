@@ -24,14 +24,15 @@
 
 * [Eclipse IDE](https://eclipse.org/) - Versão mais atual da IDE já vem por padrão com o [plugin](http://www.eclipse.org/m2e/) necessário para integração de projetos Maven.
 * JDK8 [instalado e configurado](http://www.devmedia.com.br/instalacao-e-configuracao-do-pacote-java-jdk/23749).
-* Git [instalado e configurado](https://git-scm.com/book/pt-br/v1/Primeiros-passos-Instalando-Git) 
 
 
-## Como executar o projeto 
+## Screenshots Projeto
 
-**1º Passo:** Clonar o projeto do repositório GitHub através do seguinte comando :
-	
-	git clone https://github.com/ghdepaula/fullstack-java-teste
+![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-09%2016-48-05.png)
+
+![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-09%2016-48-13.png)
+
+![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-09%2017-19-47.png)
 
 
  
