@@ -25,6 +25,9 @@
 * [Eclipse IDE](https://eclipse.org/) - Versão mais atual da IDE já vem por padrão com o [plugin](http://www.eclipse.org/m2e/) necessário para integração de projetos Maven.
 * JDK8 [instalado e configurado](http://www.devmedia.com.br/instalacao-e-configuracao-do-pacote-java-jdk/23749).
 
+## Execução Maven Build
+
+![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-09%2017-19-47.png)
 
 ## Screenshots Projeto
 
@@ -32,7 +35,6 @@
 
 ![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-09%2016-48-13.png)
 
-![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-09%2017-19-47.png)
 
 
  
