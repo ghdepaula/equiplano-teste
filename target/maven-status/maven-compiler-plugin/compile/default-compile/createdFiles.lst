@@ -1,0 +1,10 @@
+br\com\equiplano\resource\ProdutoResource.class
+br\com\equiplano\services\CategoriaService.class
+br\com\equiplano\resource\CategoriaResource.class
+br\com\equiplano\model\Categoria.class
+br\com\equiplano\model\Produto.class
+br\com\equiplano\repository\CategoriaRepository.class
+br\com\equiplano\repository\ProdutoRepository.class
+br\com\equiplano\services\ProdutoService.class
+br\com\equiplano\dto\CategoriaDTO.class
+br\com\equiplano\dto\ProdutoDTO.class

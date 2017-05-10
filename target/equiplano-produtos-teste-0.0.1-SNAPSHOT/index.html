@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8" />
+	<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.ico"/>
+	<title>Teste Equiplano</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-select.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-sticky-footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
+	<link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.css' type='text/css' media='all' />
+</head>
+<body ng-app="equiplanoApp">
+	<nav id="header" class="navbar navbar-default">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">
+					<img src="assets/images/logo-equiplano.jpg" width="48px" height="100px" class="img-responsive" />
+				</a>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="dropdown">
+						<a class="dropdown-toggle" type="button" id="menuProduto" data-toggle="dropdown">
+								<span class="fa fa-tags"></span>&nbsp;&nbsp;Produtos&nbsp;&nbsp;<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="menuProduto">
+							<li role="presentation">
+								<a role="menuitem" href="#/produtos">
+									<span class="fa fa-edit"></span>&nbsp;&nbsp;Cadastro
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" type="button" id="menuProduto" data-toggle="dropdown">
+								<span class="fa fa-list"></span>&nbsp;&nbsp;Categorias&nbsp;&nbsp;<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu" role="menu" aria-labelledby="menuCategorias">
+							<li role="presentation">
+								<a role="menuitem" href="#/categorias">
+									<span class="fa fa-edit"></span>&nbsp;&nbsp;Cadastro
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="content" class="container">
+		<div class="content" ng-view ></div>
+	</div>
+	<footer class="footer">
+      <div class="container">
+        <span class="navbar-text text-muted text-center">2017 &copy; Guilherme Henrique de Paula&nbsp;&nbsp;
+        	<a class="btn-link" href="https://github.com/ghdepaula" title="GitHub" target="_blank"><i class="fa fa-lg fa-github"></i></a>&nbsp;&nbsp;
+        	<a class="btn-link" href="doc" title="JavaDoc" target="_blank"><i class="fa fa-lg fa-book"></i></a>
+        </span>
+      </div>
+    </footer>
+	<script src="assets/js/jquery-3.1.0.min.js"></script>
+	<script src="assets/js/jquery.mask.js"></script>
+	<script src="assets/js/bootstrap.js"></script>
+	<script src="assets/js/bootstrap-select.js"></script>
+	<script src="assets/js/angular.js"></script>
+	<script src="assets/js/angular-route.js"></script>
+	<script type='text/javascript' src='//cdnjs.cloudflare.com/ajax/libs/angular-loading-bar/0.9.0/loading-bar.min.js'></script>
+	<script src="assets/js/locales/angular-locale_pt-br.js"></script>
+	<script src="app/app.js"></script>
+	<script src="app/services/produtoService.js"></script>
+	<script src="app/services/categoriaService.js"></script>
+	<script src="app/services/alertsService.js"></script>
+	<script src="app/controllers/produtoController.js"></script>
+	<script src="app/controllers/categoriaController.js"></script>
+	
+</body>
+</html>
