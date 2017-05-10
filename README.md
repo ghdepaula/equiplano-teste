@@ -28,17 +28,21 @@
 
 ## Modos de execução e teste o projeto
 
-** Modo 1 - Executar o maven build com os comandos abaixo: **
+**Modo 1 - Executar o maven build com os comandos abaixo:**
 
 ![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-09%2017-19-47.png)
 
-** Modo 2 - Modificar context root do projeto, adicioná-lo ao servidor e executar (configurar servidor para ser executado na porta 9090): **
+**Modo 2 - Modificar context root do projeto, adicioná-lo ao servidor e executar (configurar servidor para ser executado na porta 9090):**
 
-![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-09%2017-19-47.png)
+![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-10%2009-20-54.png)
 
-** Modo 3 - Mover o arquivo equiplano.war para a pasta webapps do Tomcat e executá-lo (configurar servidor para ser executado na porta 9090):**
+![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-10%2009-25-07.png)
 
-![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-09%2017-19-47.png)
+![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-10%2009-21-45.png)
+
+**Modo 3 - Mover o arquivo equiplano.war para a pasta webapps do Tomcat e executá-lo (configurar servidor para ser executado na porta 9090):**
+
+![alt text](https://raw.githubusercontent.com/ghdepaula/equiplano-teste/master/screenshots/Screenshot%20from%202017-05-10%2009-42-00.png)
 
 ## Screenshots Telas
 
