@@ -1,0 +1,8 @@
+*RemoteSystemsTempFiles/
+*.metadata/
+*.settings
+*.recommenders/
+*.classpath
+*.project
+*tomcat
+*target/

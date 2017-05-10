@@ -1,0 +1,52 @@
+<div id="categorias" class="content" ng-controller="categoriaController" ng-hide="loadIntro">
+	<div class="panel panel-primary">
+		<div class="panel-heading"><span class="fa fa-edit"></span>&nbsp;&nbsp;Cadatro de Categorias</div>
+		<div class="panel-body">
+			<div class="alert {{alertMessage.typeAlert}} alert-dismissable fade in" ng-show="showAlert">
+				   <a class="close" data-dismiss="alert" ng-show="alertMessage.closable" aria-label="close">&times;</a>
+				   <i class="{{alertMessage.alertIcon}}"></i>&nbsp;&nbsp;<strong>{{alertMessage.typeDescription}} </strong>{{alertMessage.status}} {{alertMessage.message}}
+			</div>
+			<form name="categoriasForm" class="form-group">
+				<div class="form-group">
+					<label for="descrCategoria">Descrição</label> 
+					<input id="descrCategoria" type="text" class="form-control" ng-model="categoria.descricao" ng-required="true" placeholder="Informe a descrição da categoria" />
+				</div>
+				<hr />
+				<div class="text-right">
+					<button id="resetCliente" type="button" class="btn btn-default" ng-click="cancel()">
+						Cancelar&nbsp;&nbsp;<span class="fa fa-ban" aria-hidden="true"></span>
+					</button>
+					<button type="button" class="btn btn-success" ng-disabled="categoriasForm.$invalid" ng-click="insert(categoria)" ng-hide="hideBtnSalvar">
+						Salvar&nbsp;&nbsp;<span class="fa fa-save" aria-hidden="true"></span>
+					</button>
+					<button type="button" class="btn btn-success" ng-disabled="categoriasForm.$invalid" ng-click="update(categoria)" ng-hide="!hideBtnSalvar">
+						Atualizar&nbsp;&nbsp;<span class="fa fa-refresh" aria-hidden="true"></span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	<div ng-show="categorias.length > 0">
+		<div class="table-responsive">
+			<table class="table table-condensed table-hover " ng-init="findAll()">
+				<thead>
+					<th>Código</th>
+					<th>Descrição</th>
+					<th></th>
+				</thead>
+				<tbody>
+					<tr ng-repeat="categoria in categorias">
+						<td>{{ categoria.id }}</td>
+						<td>{{ categoria.descricao }}</td>
+						
+						<td class="text-right">
+							<button class="btn btn-sm btn-info" ng-click="loadForm(categoria.id)">
+								Editar&nbsp;&nbsp;<span class="fa fa-edit" aria-hidden="true"></span>
+							</button>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
