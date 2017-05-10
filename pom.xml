@@ -76,6 +76,7 @@
     </dependencies>
  
     <build>
+    	<finalName>equiplano</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
